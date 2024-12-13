@@ -1,0 +1,11 @@
+// script.js
+const apiKey = 'YOUR_OPENWEATHER_API_KEY'; // Replace with your actual API key
+
+const cityInput = document.getElementById('city-input');
+const searchBtn = document.getElementById('search-btn');
+const currentLocationBtn = document.getElementById('current-location-btn');
+const currentWeather = document.getElementById('current-weather');
+const forecastContainer = document.querySelector('.forecast-container');
+const favoriteCitiesList = document.getElementById('favorite-cities');
+
+// ... (Rest of the JavaScript code)
